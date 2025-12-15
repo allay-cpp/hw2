@@ -4,19 +4,20 @@
 
 int main()
 {
-	std::cout << "Ââåäèòå ïåğâîå ÷èñëî: ";
+	std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ¿ĞµÑ€Ğ²Ğ¾Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾: ";
 	int a{};
 	std::cin >> a;
-	std::cout << "Ââåäèòå âòîğîå ÷èñëî: ";
+	std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ²Ñ‚Ğ¾Ñ€Ğ¾Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾: ";
 	int b{};
 	std::cin >> b;
-	std::cout << "Ââåäèòå òğåòüå ÷èñëî: ";
+	std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ñ‚Ñ€ĞµÑ‚ÑŒĞµ Ñ‡Ğ¸ÑĞ»Ğ¾: ";
 	int c{};
 	std::cin >> c;
-	std::cout << "\nĞåçóëüòàò: ";
+	std::cout << "\nĞ ĞµĞ·ÑƒĞ»ÑŒÑ‚Ğ°Ñ‚: ";
 	std::cout << (a >= b && a >= c ? a : (b >= a && b >= c ? b : c)) << ' ';
 	std::cout << (a <= b && a >= c || a >= b && a <= c ? a : (b <= a && b >= c || b >= a && b <= c ? b : c)) << ' ';
 	std::cout << (a <= b && a <= c ? a : (b <= a && b <= c ? b : c)) << std::endl;
 
 	return EXIT_SUCCESS;
+
 }
