@@ -1,5 +1,4 @@
 #include <iostream>
-#include <string>
 #include <cstdlib>
 
 int main()
@@ -21,3 +20,4 @@ int main()
 	return EXIT_SUCCESS;
 
 }
+
