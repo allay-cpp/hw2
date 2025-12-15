@@ -2,7 +2,6 @@
 #include <string>
 #include <cstdlib>
 
-
 int main()
 {
 	std::cout << "Введите пол: ";
