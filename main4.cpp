@@ -130,7 +130,6 @@ int main()
 				str_x += "девять";
 				break;
 			}
-
 		}
 		std::string str_a{ "" };
 		str_a = str_x;
@@ -247,7 +246,6 @@ int main()
 				str_x += "девять";
 				break;
 			}
-
 		}
 		std::string str_b{ "" };
 		str_b = str_x;
